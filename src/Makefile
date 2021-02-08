@@ -1,5 +1,5 @@
 moving files : lexer
-	mkdir ../bin
+	mkdir -p ../bin
 	mv lexer ../bin
 	
 lexer: lex.yy.c
