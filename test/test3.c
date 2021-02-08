@@ -3,7 +3,6 @@ int main() {
     printf("Enter two positive integers: ");
     scanf("%d %d", &n1, &n2);
 
-    // maximum number between n1 and n2 is stored in min
     max = (n1 > n2) ? n1 : n2;
 
     while (1) {
